@@ -1,0 +1,17 @@
+# ALIASES
+# Terminal aliases
+alias c="clear"
+alias la="ls -la"
+alias ls="ls --color -l -h"
+alias ec="$EDITOR $HOME/.zshrc"
+alias sc="source $HOME/.zshrc"
+
+# Navigation aliases
+alias dev="cd ~/Developer"
+
+# Git aliases
+alias gcg="git config --edit --global"
+alias gcl="git config --edit --local"
+
+# Dotfiles alias
+alias config="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
